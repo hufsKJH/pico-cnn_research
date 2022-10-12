@@ -11,7 +11,7 @@ do
 	echo $image_path
 
 	#모델 실행
-	result=`/home/dilee/Desktop/pico-cnn/onnx_import/generated_code/vgg16/vgg16 /home/dilee/Desktop/pico-cnn/onnx_import/generated_code/vgg16/network.weights.bin /home/dilee/Desktop/pico-cnn/onnx_import/generated_code/vgg16/imagenet.means /home/dilee/Desktop/pico-cnn/data/imageNet_labels/imagenet1000_clsidx_to_labels.txt $image_path`
+	result=`/home/dilee/Desktop/pico-cnn/onnx_import/generated_code/vgg16/vgg16 /home/dilee/Desktop/pico-cnn/onnx_import/generated_code/vgg16/network.weights.bin /home/dilee/Desktop/pico-cnn/onnx_import/generated_code/vgg16/imagenet.means /home/dilee/Desktop/pico-cnn/data/imageNet_labels/LOC_synset_mapping.txt $image_path`
 
 	predict_arr+=("$result")
 	#echo $result >> predict.txt
