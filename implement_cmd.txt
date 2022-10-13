@@ -1,0 +1,1 @@
+/home/dilee/Desktop/pico-cnn/onnx_import/generated_code/vgg16/vgg16 /home/dilee/Desktop/pico-cnn/onnx_import/generated_code/vgg16/network.weights.bin /home/dilee/Desktop/pico-cnn/onnx_import/generated_code/vgg16/imagenet.means /home/dilee/Desktop/pico-cnn/data/imageNet_labels/LOC_synset_mapping.txt /home/dilee/Desktop/pico-cnn_research/accuracy_test/test_images/images.jpg

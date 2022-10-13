@@ -1,0 +1,1 @@
+bash accuracy_test.sh
